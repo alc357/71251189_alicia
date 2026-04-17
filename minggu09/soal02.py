@@ -1,0 +1,5 @@
+kalimat = input("Masukan kalimat-kalimatmu : ")
+kata = input("Kata yang dicari : ")
+kalimat = kalimat.lower()
+kata = kata.lower()
+print(f"{kata} ada {kalimat.count(kata)} buah")
